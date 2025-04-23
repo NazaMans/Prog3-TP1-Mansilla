@@ -1,3 +1,15 @@
 .Resaltar{
     font-weight: bold;
 }
+
+body{
+    background-color: gray;
+    color: white;
+}
+
+#foto-mia{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(8, 155, 218);
+}
