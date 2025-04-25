@@ -1,6 +1,28 @@
 .Resaltar{
     font-weight: bold;
 }
+a:hover{
+    color: red;
+    background-color: lightblue;
+    text-decoration: underline;
+}
+a:visited{
+    color: blue;
+    background-color: lightblue;
+    text-decoration: none;
+}
+
+a
+{
+    color: black;
+    background-color: lightblue;
+    text-decoration: none;
+    padding: 10px 20px;
+
+}
+.spani{
+    color: red;
+}
 
 body{
     background-color: gray;
