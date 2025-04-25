@@ -1,57 +1,45 @@
 /*Clases Resaltar y flecha
 Id foto-mia
 */
-.Resaltar{
-    font-weight: bold;
+
+/*
+Aprobar (6 o 7):
++ CSS: selectores de elementos, id o clase.
+Promocion (8, 9 o 10):
++ CSS: selectores "elemento elemento" y "elemento, elemento".
+*/
+
+.Resaltar {
+  font-weight: bold;
 }
 
-.flecha{
-    position: fixed;
-      top: 10px;
-      left: 10px;
-      width: 40px; 
-      height: auto;
-      cursor: pointer;
-      transition: transform 0.3s;
+#foto-mia {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid rgb(1, 173, 246);
 }
 
-.flecha:hover{
-    transform: scale(1.1); 
+#fotoPag {
+  width: 35%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
-a:hover{
-    color: red;
-    text-decoration: underline;
-}
-a:visited{
-    color: violet;
-    text-decoration: none;
+p, h1, h2, h3 {
+  color: white;
+  text-align: center;
 }
 
-a
-{
-    color: black;
-    text-decoration: none;
-    padding: 10px 20px;
-
+.lista {
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
 }
 
-body{
-    background-color: #121212;
-   color: #E0E0E0;
-}
-
-#foto-mia{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 5px solid rgb(8, 155, 218);
-}
-
-p{
-    color: #A0A0A0;
-}
-
-h1,h2,h3{
-    color: #E0E0E0;
+body {
+  background-color: #121212;
 }
