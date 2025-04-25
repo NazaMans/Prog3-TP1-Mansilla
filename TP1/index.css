@@ -38,12 +38,20 @@ p i {
   color: white;
   text-decoration: underline;
 }
+#textoFlyer{
+font-size: 15px;
+}
 
 .lista {
   padding: 20px;
   border-radius: 10px;
   text-align: center;
   font-size: 20px;
+}
+
+.lista ul {
+    display: inline-block;
+    text-align: left;
 }
 
 a.hover {
