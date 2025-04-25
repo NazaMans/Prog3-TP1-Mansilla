@@ -1,21 +1,33 @@
 .Resaltar{
     font-weight: bold;
 }
+
+.flecha{
+    position: fixed;
+      top: 10px;
+      left: 10px;
+      width: 40px; /* Tamaño de la imagen */
+      height: auto;
+      cursor: pointer;
+      transition: transform 0.3s;
+}
+
+.flecha:hover{
+    transform: scale(1.1); /* Efecto al pasar el mouse */
+}
+
 a:hover{
     color: red;
-    background-color: lightblue;
     text-decoration: underline;
 }
 a:visited{
-    color: blue;
-    background-color: lightblue;
+    color: violet;
     text-decoration: none;
 }
 
 a
 {
     color: black;
-    background-color: lightblue;
     text-decoration: none;
     padding: 10px 20px;
 
@@ -25,8 +37,8 @@ a
 }
 
 body{
-    background-color: gray;
-    color: white;
+    background-color: #121212;
+   color: #E0E0E0;
 }
 
 #foto-mia{
