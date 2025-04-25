@@ -34,10 +34,26 @@ p, h1, h2, h3 {
   text-align: center;
 }
 
+p i {
+  color: white;
+  text-decoration: underline;
+}
+
 .lista {
   padding: 20px;
   border-radius: 10px;
   text-align: center;
+  font-size: 20px;
+}
+
+a.hover {
+  color: lightblue;
+  text-decoration: none;
+}
+
+a.visited {
+  color:white;
+  text-decoration: none;
 }
 
 body {
